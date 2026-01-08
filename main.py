@@ -8,7 +8,7 @@ import mediapipe as mp
 
 # --- CONFIGURACIÓN ---
 # ¡IMPORTANTE! PEGA AQUÍ TU URL DE GOOGLE APPS SCRIPT
-URL_EXCEL = "TU_URL_DE_APPS_SCRIPT_AQUI"
+URL_EXCEL = "https://script.google.com/macros/s/AKfycbzQ9VQSvari9Gue-fMTL34OK3mXlNY7pdeIFlZqLaoSVzXntxTvFSxs6-JUWVlty1Oa/exec"
 
 st.set_page_config(page_title="Biometría Google MediaPipe", layout="centered")
 
@@ -173,3 +173,4 @@ elif opcion == "Acceder":
                     st.error(f"Error: {e}")
         else:
             st.warning("⚠️ El sistema no detecta una cara humana válida.")
+
