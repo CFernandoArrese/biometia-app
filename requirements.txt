@@ -3,5 +3,5 @@ opencv-python-headless
 numpy
 Pillow
 requests
-mediapipe==0.10.14
-protobuf==3.20.3
+mediapipe
+protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
